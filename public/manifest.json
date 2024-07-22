@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Evaluate on Surf",
+    "version": "0.0.1",
+    "description": "This extension can be used allongside a crawl in order to evaluate the model and what pages it blocks.",
+    "background": {
+        "page": "./background/index.html",
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Tain On Surf",
+        "default_popup": "/popup/index.html"
+    },
+    "permissions": [
+        "background",
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "unlimitedStorage",
+        "downloads",
+        "activeTab",
+        "tabs",
+        "<all_urls>"
+    ]
+}
