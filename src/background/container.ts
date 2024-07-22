@@ -1,4 +1,3 @@
-import "reflect-metadata";
 import { Container } from "inversify";
 import { Classifier, ClassifierType, IClassifier } from "./classifier";
 import { Extractor, ExtractorType, IExtractor } from "./extractor";

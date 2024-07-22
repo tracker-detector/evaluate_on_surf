@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import { AppType, IApp } from "./app";
 import { createContainer } from "./container";
 
